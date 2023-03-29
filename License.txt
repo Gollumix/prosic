@@ -1,0 +1,31 @@
+License Type:
+	BeerWare 
+	Free To Use or Change 
+
+Copyright: 
+	Bartłomiej Makaruk 2020-2022
+	Poland - Warsaw
+	Contact: 
+		E-mail: 
+				erga143@int.pl
+			   	erga143@wp.pl
+
+		Social Media: 
+				FB: Bartłomiej Makaruk
+				IG: ___m.a.k.a.r_
+
+Writing:
+	Bartłomiej Makaruk
+	Coding: Bartłomiej Makaruk
+	JS: Bartłomiej Makaruk
+	CSS: Bartłomiej Makaruk
+	HTML: Bartłomiej Makaruk
+
+ * ----------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 42):
+ * <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you
+ * can do whatever you want with this stuff. If we meet some day, and you think
+ * this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp
+ * ----------------------------------------------------------------------------
+
+
