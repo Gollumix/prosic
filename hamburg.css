@@ -1,4 +1,23 @@
 
+@media screen and (max-width: 500px){
+.wszystko
+.wszystko2
+.el-wrapper
+.el-wrapper:hover 
+.menu
+.open-menu
+.close-menu
+}
+
+.bg1{
+  background-color: #2a2a2a;
+  color: white;
+}
+
+h2{
+  background-color: #2a2a2a;
+  color: white;
+}
 
 .footer-distributed {
   background-color: black;
