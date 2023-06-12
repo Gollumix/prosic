@@ -12,6 +12,14 @@
   user-select: none;
 }
 
+.kolo2{
+  width: 100%;
+  border: 2px solid black;
+  color: #fff;
+  background-color: red;
+  
+}
+
 .contactForm {
   width: calc(100% - 20px);
   max-width: 700px;
@@ -366,6 +374,40 @@ form input[type= 'submit']:hover{
   color: white;
 }
 
+#cookie-popup {
+  position: fixed;
+  right: -100%;
+  bottom: 0;
+  max-width: 300px;
+  background: black;
+  border: 1px solid #e2e2e2;
+  z-index: 9999;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.94;
+  padding: 16px;
+}
+
+#cookie-popup p {
+  margin: 0;
+  color: #fff;
+}
+
+#cookie-popup #cookie-popup-dismiss-btn {
+  display: inline-block;
+  margin-top: 16px;
+  color: white;
+  width: 70px;
+  text-decoration: none ;
+  background-color: black;
+  border: 1px solid white;
+  padding: 8px 23px;
+  cursor: pointer;
+}
+
+#cookie-popup.is-visible {
+  right: 0;
+}
+
 @media screen and (max-width: 500px){
   .wszystko
   .wszystko2
@@ -495,7 +537,7 @@ hr{
 }
 
 .kc{
-  background-color: transparent;
+  background-color: #fff;
 }
 
 .wszystko {

@@ -37,14 +37,47 @@
     </nav>
     </header>
     <br>
+    <div id="cookie-popup">
+      <p>
+        This website uses “cookies” to expedite site speed and customize our presentation to better serve you.
+      </p>
+      <a id="cookie-popup-dismiss-btn">KK</a>
+    </div>
+    
+    <script>
+      (function(){
+        window.onload = function () {
+          document.getElementById('cookie-popup-dismiss-btn').addEventListener('click', dismissCookiePopup);
+          
+          var shouldShowPopup = localStorage.getItem('cookiePopupConsumed') !== '1';
+          if (shouldShowPopup) {
+            setTimeout(function () {
+              document.getElementById('cookie-popup').className += ' is-visible';
+            }, 1000);
+          }
+        }
+    
+        function dismissCookiePopup() {
+          localStorage.setItem('cookiePopupConsumed', '1');
+          document.getElementById('cookie-popup').className = '';
+        }
+      })();
+    </script>
+
     <center>
       <br>
     <div class="wszystko2">
+      
     <h1><u>RECENTLY ADDED PRODUCTS</u></h1>
+    <br>
+    <br>
+    <div class="kolo2">
+    <h1>12.06 - 01.07 <br>SALES UP TO -70%!*</h1>
+  </div>
   </div>
         <br>
         <div class="kc">
-        
+          
         <div class="wszystko">
 
         <div class="container page-wrapper">
@@ -123,7 +156,7 @@
                       <div class="a-size">Available sizes : <span class="size">XS , S , M , L , XL</span></div>
                     </div>
                   </div>
-          
+
                   <div class="box-down">
                     <div class="h-bg">
                       <div class="h-bg-inner"></div>s
@@ -347,7 +380,7 @@
       <footer class="footer-distributed">
 
         <div class="footer-right">
-
+          
             PAGE ISN'T DONE YET<br>WAIT FOR THE END
 
         </div>
