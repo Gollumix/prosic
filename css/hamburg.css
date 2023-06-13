@@ -392,6 +392,52 @@ form input[type= 'submit']:hover{
   color: #fff;
 }
 
+.cart-page{
+    margin: 80px auto;
+    size: 20px;
+}
+
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+
+td img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+
+}
+
+td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+td a{
+  font-size: 12px;
+}
+
+td{
+  padding: 10px 5px;
+}
+th{
+  text-align: left;
+  padding: 5px;
+  color: #FFF;
+  background: #2a2a2a;
+}
+
+
+table{
+  width: 70%;
+  border-collapse: collapse;
+}
+
 #cookie-popup #cookie-popup-dismiss-btn {
   display: inline-block;
   margin-top: 16px;
