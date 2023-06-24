@@ -852,7 +852,7 @@ hr{
 }
 
 /** Responsive Tablet **/
-@media  (min-width: 520px ) and (max-width: 1080px) {
+@media  (min-width: 100px ) and (max-width: 2560px) {
  .container0{
   display: block;
   height: auto;
