@@ -750,7 +750,7 @@ hr{
   font-weight: 500;
 }
 .product-btn-group .buy-now{
-  background-color: black;
+  background-color: #181818;
   color: #fff;
   border: 1px solid var(--accent-color);
   border-radius: 4px;
@@ -768,7 +768,7 @@ hr{
 
 .product-btn-group .add-cart{
   
-  background-color: black;
+  background-color: #181818;
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
@@ -852,11 +852,12 @@ hr{
 }
 
 /** Responsive Tablet **/
-@media  (min-width: 100px ) and (max-width: 2560px) {
+@media  (min-width: 100px ) and (max-width: 1500px) {
  .container0{
   display: block;
   height: auto;
-  padding: 20px;
+  padding: 20px 60px;
+
  }
   
 }
