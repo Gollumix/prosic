@@ -1,3 +1,9 @@
+
+.logowanie{
+  padding: center;
+}
+
+
 .container4 {
   display: inline-block;
   position: relative;
@@ -448,6 +454,18 @@ table{
   cursor: pointer;
 }
 
+#cookie-popup #cookie-popup-dismiss-btn:hover {
+  display: inline-block;
+  margin-top: 16px;
+  color: black;
+  width: 70px;
+  text-decoration: none ;
+  background-color: white;
+  border: 1px solid white;
+  padding: 8px 23px;
+  cursor: pointer;
+}
+
 #cookie-popup.is-visible {
   right: 0;
 }
@@ -536,6 +554,7 @@ hr{
 /** product image **/
 
 .single-product .product-image{
+
   width: 100%;
 }
 
@@ -545,6 +564,7 @@ hr{
   height: 480px;
   background: var(--bg-grey);
   padding: 10px;
+
 }
 
 .product-image-main img{
@@ -862,8 +882,33 @@ hr{
   
 }
 
+.news{
+  width: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  font: 16px Helvetica;
+  box-sizing: border-box;
+  animation-name: fade;
+  animation-duration: 0.5s;
+  padding: 45px 50px;
+}
+
+.newsl{
+  width: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  font: 16px Helvetica;
+  box-sizing: border-box;
+  animation-name: fade;
+  animation-duration: 0.5s;
+  padding: 45px 50px;
+  text-align: right;
+  
+}
+
+
 .footer-distributed {
-  background-color: #181818;
+  background-color: #1c1c1c;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -1296,6 +1341,7 @@ body {
     padding: 12px 20px;
     animation-name: fade;
     animation-duration: 0.5s;
+    box-shadow: 8px 8px 24px 0px #2a2a2a;
 }
 .logo img {width: 150px;}
 .menu {display: flex;}
@@ -1340,9 +1386,9 @@ body {
 @media(max-width: 610px){
     .menu {
         flex-direction: column;
-        align-items: center;
+       
         justify-content: center;
-        width: 80%;
+        width: 100%;
         height: 100vh;
         position: fixed;
         top: 0;
